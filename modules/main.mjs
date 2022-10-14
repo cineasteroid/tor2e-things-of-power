@@ -13,6 +13,8 @@
 //   console.log('INITIALIZING TOR2e THINGS OF POWER...');
 // });
 
+// REMOVING TO TEST FUNCTIONALITY
+
 /* ------ SOCKETS ------ */
 let socketTOP;
 const TOP = 'tor2e-things-of-power';
