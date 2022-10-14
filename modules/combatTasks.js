@@ -11,7 +11,7 @@ const template_data = {
 };
 const rendered_html = renderTemplate(template_file, template_data);
 
-class TaskDialog extends Dialog {
+export class TaskDialog extends Dialog {
   constructor(data, options) {
     super(data, options);
   }
@@ -42,7 +42,7 @@ class TaskDialog extends Dialog {
 let combatStance;
 let combatTasks = [];
 
-class CombatTasks {
+export class CombatTasks {
   getTasks() {
     if (stance === 'Tor2eRearwardStance') {
       combatStance = 'Rearward Stance';

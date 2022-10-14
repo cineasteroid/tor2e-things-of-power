@@ -1,3 +1,18 @@
+import { TaskDialog } from './modules/combatTasks.js';
+import { CombatTasks } from './modules/combatTasks.js';
+
+export class Tor2eTOP {
+  constructor() {
+    this.combatTask = new CombatTasks();
+    this.taskDialog = new TaskDialog();
+  }
+}
+
+Hooks.once('init', async function () {
+  game.tor2etop = new Tor2eTOP();
+  console.log('INITIALIZING TOR2e THINGS OF POWER...');
+});
+
 /* ------ SOCKETS ------ */
 let socketTOP;
 const TOP = 'tor2e-things-of-power';
