@@ -19,7 +19,7 @@
     "systems": [],
     "requires": []
   },
-  "esmodules": ["modules/module.js"],
+  "esmodules": ["modules/main.js"],
   "styles": ["styles/module.css"],
   "languages": [
     {

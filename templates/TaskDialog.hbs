@@ -1,0 +1,38 @@
+<form>
+  <h2 class="title">{{combatStance}}</h2>
+  <div class="intstructions">Pick a Combat Task from the available options below:</div>
+  <div class="form-group">
+    <div id="taskRadios"></div>
+  </div>
+</form>
+
+<style>
+  .dialog.window-app > .window-content {
+    background: url(ui/parchment.jpg);
+  }
+  .title {
+    text-align: center;
+    margin: 14px auto;
+  }
+  .instructions {
+    font-size: 18px;
+    margin: 4px 12px;
+  }
+  #taskRadios {
+    margin: 2px 14px 14px 14px;
+    display: inline-block
+  }
+  label {
+    font-size: 16px;
+    margin-left: 4px;
+  }
+  input[name='tasks'] {
+    cursor: pointer;
+  }
+  .dialog .dialog-button {
+    cursor: pointer;
+  }
+  .dialog .dialog-button:active {
+    background: rgba(0, 0, 0, 0.2);
+  }
+</style>
