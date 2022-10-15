@@ -1,5 +1,5 @@
-import { TaskDialog } from './modules/combatTasks.js';
-import { CombatTasks } from './modules/combatTasks.js';
+import { TaskDialog } from './combatTasks.js';
+import { CombatTasks } from './combatTasks.js';
 
 export class Tor2eTOP {
   constructor() {
